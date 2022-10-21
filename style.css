@@ -44,13 +44,14 @@ width: 1000px;
 height: 20px;
 }
 .left{
+
     width: 215px;
 display: flex;
 flex-direction: column;
 }
 .right{
-    
-    width: 770px;
+    width: calc(1000px - 215px);
+    /* width: 770px; */
     display: flex;
     flex-direction: column;
 
@@ -98,14 +99,16 @@ height: 25px;
 
 }
 .marquee{
-    width: 770px;
+    width: calc(1000px - 215px);
+    /* width: 770px; */
 height: 29px;
 font-size: 24px;
 color: #0000FF;
 
 }
 .contect{
-    width: 770px;
+    width: calc(1000px - 215px);
+    /* width: 770px; */
 flex-grow: 1;
 }
 
